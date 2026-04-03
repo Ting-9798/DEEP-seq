@@ -7,6 +7,7 @@ Single-cell transcriptomics has revolutionized our understanding of rare cell po
 ## Step 1: Raw data processing and alignment
 Use STARsolo with default parameters to process the raw FASTQ data, performing cell barcode identification and UMI counting.
 
+```
 sh 0_Preprocess/run_star.sh
 
 ## Step 2: Downstream analysis pipeline
