@@ -14,5 +14,7 @@ sh 0_Preprocess/run_star.sh
 ## Step 2: Downstream analysis pipeline
 The downstream analysis scripts from the DEEP-seq paper have been uploaded to the code directories organized by figures.
 
-
+## Data availability
+The raw sequence data reported in this study have been deposited in the Genome Sequence Archive in the National Genomics Data Center, Beijing Institute of Genomics (China National Center for Bioinformation) of CAS under accession no. PRJCA061340 at https://ngdc.cncb.ac.cn. This includes raw data from mouse tissues and cell lines (CRA040848) as well as human PBMCs, tissues, and cell lines (HRA017742). 
+To ensure easy access during the review process, we have generated a reviewer link for the dataset (Mouse: https://ngdc.cncb.ac.cn/gsa/s/TEe5e1l9 ; Human: https://ngdc.cncb.ac.cn/gsa-human/s/AKXxsAta).
 
