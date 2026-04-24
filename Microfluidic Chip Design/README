@@ -1,0 +1,64 @@
+DEEP-seq microfluidic chip fabrication
+
+1.	Introduction
+The Valve-seq platform integrates fluorescence-activated identification and microvalve control to enable targeted cell sorting and paired co-encapsulation with barcoded microbeads into droplets. This protocol details the microfluidic chip fabrication process, sample preparation, instrument operation, and library construction.
+
+2.	Microfluidic chip fabrication
+The fabrication of the Valve-seq chip was developed by referencing the established methods from the Quake group and incorporating standard PDMS-based microfluidic fabrication techniques1–3, with specific modifications to optimize cell encapsulation efficiency.
+
+3.	Multilayer composite silicon mold fabrication
+Silicon molds are fabricated via photolithography and utilized for PDMS casting in microfluidic chip manufacturing. The following materials were utilized:
+
+Materials	Catalog Number
+4 inch wafer(Yilanmicro, Shuzhou, China)	Y11136
+SU-8 3025(MicroChem, KAYAKU, USA)	Y11336
+SU-8 2050(MicroChem, KAYAKU, USA)	Y11452
+SU-8 2000.5(MicroChem, KAYAKU, USA)	Y11449
+AZ4620(AZ Electronic Materials, USA)	Y11529
+PDMS(Sylgard 184, Dow Corning, USA)	01673921
+Chlorotrimethylsilane(Aladdin, Shanghai, China)	C104813-500ml
+5 inch Chrome mask(Jiaodian, Shenzhen, China)	204002
+PGMEA(Sigama-Aldrich, Merck, USA)	Y11426
+AZ300MIF(AZ Electronic Materials, USA)	Y11256
+IPA(Aladdin, Shanghai, China)	Y11378
+DI water(ACMEC, Shanghai, China)	AM1000028
+
+Fabrication steps of flow channel wafer mold:
+1.	Plasma(PDC-002-HP, Harrick, USA) surface cleaning of silicon wafers(150W 40s).
+2.	A SU-8 2000.5 photoresist layer was spin-coated(4000 rpm 30s) onto the silicon wafer using a spin coater(EZ6-S-EN-3, Schwan, Jiangyin, China).
+3.	Cross-linking of the SU-8 photoresist was achieved by a 5-second exposure using a mask aligner(MA/BA 6 Gen4, Karl Suss, USA).
+4.	Post-exposure bake (PEB) was performed on a hot plate(HP8, ESPEC, Hefei, China) at 95°C for 30 seconds.
+5.	A layer of AZ4620 was spin-coated at 1000 rpm for 30 seconds.
+6.	Soft bake: Wafer on a hot plate at 110°C for 80 seconds.
+7.	Coat: An additional layer of AZ4620 was spin-coated at 1000 rpm for 30 seconds.
+8.	Soft bake: Wafer on a hot plate at 115°C for 180 seconds.
+9.	Incubation: 30 min.
+10.	Exposure: Three consecutive exposures were performed at a dose of 833 mJ/cm² with 10-second intervals between each exposure(Arc-shaped flow channel chrome mask).
+11.	Develop: The wafer was developed with AZ 300MIF developer for 11 minutes.
+12.	Rinse and dry: The silicon wafer was rinsed with deionized water (DI water), followed by drying with compressed air.
+13.	Reflow: The silicon wafer was placed on a hot plate, where the temperature was gradually increased to 180°C and maintained for 3 hours, followed by cooling to ambient temperature under controlled conditions.
+14.	Graphical inspection: The height of the silicon mold was measured using a stylus profilometer(Dektak XT, Bruker, USA), followed by 3D contour examination of the patterned structures with a non-contact 3D surface profiler(VR-6000, Keyence, Japan).
+15.	Surface cleaning: Plasma surface cleaning of silicon wafers(150W for 40s).
+16.	Coat: An layer of SU-8 3025 was spin-coated at 2300 rpm for 30 seconds.
+17.	Soft bake: Wafer on a hot plate at 95°C for 14 mins.
+18.	Exposure: Exposures were performed at a dose of 240 mj/cm2.
+19.	Post bake: The wafer was heated on a hot plate at 65°C for 1 minute, followed by 5 minutes at 95°C.
+20.	Develop: Development was performed using PGMEA for 7 minutes.
+21.	Rinse and dry: The wafer was sequentially rinsed with isopropyl alcohol (IPA), anhydrous ethanol, and deionized (DI) water for 10 seconds each, followed by blow-drying with compressed air.
+22.	Coat: An layer of SU-8 2050 was spin-coated at 1850 rpm for 30 seconds.
+23.	Soft bake: The wafer was heated on a hot plate at 65°C for 3 minute, followed by 9 minutes at 95°C.
+24.	Exposure: Exposures were performed at a dose of 215 mj/cm2.
+25.	Post bake: The wafer was heated on a hot plate at 65°C for 2 minute, followed by 7 minutes at 95°C.
+26.	Develop: Development was performed using PGMEA for 7 minutes.
+27.	Rinse and dry: The wafer was sequentially rinsed with isopropyl alcohol (IPA), anhydrous ethanol, and deionized (DI) water for 10 seconds each, followed by blow-drying with compressed air.
+28.	Graphical inspection: The height of the silicon mold was measured using a stylus profilometer, followed by 3D contour examination of the patterned structures with a non-contact 3D surface profiler.
+
+Fabrication steps of valve control channel wafer mold:
+1.	Surface cleaning: Plasma surface cleaning of silicon wafers(150W for 40s).
+2.	Coat: An layer of SU-8 3025 was spin-coated at 2500 rpm for 30 seconds.
+3.	Soft bake: Wafer on a hot plate at 95°C for 13 mins.
+4.	Exposure: Exposures were performed at a dose of 216 mj/cm2.
+5.	Post bake: The wafer was heated on a hot plate at 65°C for 1 minute, followed by 4 minutes at 95°C.
+6.	Develop: Development was performed using PGMEA for 6.5 minutes.
+7.	Rinse and dry: The wafer was sequentially rinsed with isopropyl alcohol (IPA), anhydrous ethanol, and deionized (DI) water for 10 seconds each, followed by blow-drying with compressed air.
+8.	The height of the silicon mold was measured using a stylus profilometer.
